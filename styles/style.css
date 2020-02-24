@@ -152,4 +152,9 @@ footer {
     font-size: 1.5rem;
     margin-bottom: 20px;
   }
+
+  .signUpBtn:hover {
+    background-color: yellow;
+    text-decoration: underline;
+  }
 }
