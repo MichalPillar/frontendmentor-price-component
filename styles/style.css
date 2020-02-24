@@ -76,6 +76,35 @@ body {
   background-color: var(--cyan);
 }
 
+.price {
+  display: flex;
+  align-items: center;
+}
+
+.large-text {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.box-cyan small {
+  opacity: 0.8;
+}
+
+.signUpBtn {
+  width: 100%;
+  margin-top: 25px;
+  padding: 10px 0;
+  background-color: var(--yellow);
+  border: 1px solid yellow;
+  border-radius: 5px;
+  color: var(--white);
+  font-weight: bold;
+  outline: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
 /* Box 3 */
 .box-cyan-light {
   background-color: var(--cyan);
