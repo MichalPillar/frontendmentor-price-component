@@ -126,7 +126,29 @@ footer {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   text-decoration: none;
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 800px) {
+  .component {
+    width: 600px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .box {
+    padding: 40px;
+  }
+
+  .box-white {
+    grid-column: 1 / span 2;
+  }
+
+  .box-white h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
 }
